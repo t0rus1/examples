@@ -10,7 +10,7 @@ actor Publisher {
 
   type Subscriber = {
     topic : Text;
-    callback : shared Counter -> ();
+    callback : shared Counter -> (); // shared is required to allow the callback to be called from another actor
   };
 
   stable var subscribers = List.nil<Subscriber>();

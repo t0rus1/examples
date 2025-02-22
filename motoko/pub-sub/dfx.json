@@ -6,7 +6,8 @@
     },
     "sub": {
       "type": "motoko",
-      "main": "src/sub/Main.mo"
+      "main": "src/sub/Main.mo",
+      "dependencies": ["pub"]
     }
   }
 }
