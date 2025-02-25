@@ -1,8 +1,15 @@
 {
   "canisters": {
     "dependencies_backend": {
+      "type": "motoko",
       "main": "src/dependencies_backend/main.mo",
-      "type": "motoko"
+      "dependencies": [
+        "internet_identity"
+      ]
+    },
+    "internet_identity": {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
     }
   },
   "defaults": {
