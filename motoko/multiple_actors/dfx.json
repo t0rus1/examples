@@ -1,7 +1,11 @@
 {
   "canisters": {
-    "multiple_actors_backend": {
-      "main": "src/multiple_actors_backend/main.mo",
+    "character_count": {
+      "main": "src/character_count/main.mo",
+      "type": "motoko"
+    },
+    "daemon": {
+      "main": "src/daemon/main.mo",
       "type": "motoko"
     }
   },
